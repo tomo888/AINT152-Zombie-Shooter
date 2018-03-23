@@ -10,3 +10,6 @@ References:
 https://freesound.org/people/pgi/sounds/212601/ - Gun shot sound.
 
 https://forum.zdoom.org/viewtopic.php?f=60&t=35482 - Project_Hellbane - Boss sprite.
+
+PLEASE NOTE: My final file could not be uploaded due size constraints, so unfortunately I've had to attach it to a Google Drive
+link, that should be public. I hope this suffices!
