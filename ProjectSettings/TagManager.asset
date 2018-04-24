@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Zombie
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 2077373129
+    locked: 0
+  - name: Player
+    uniqueID: 2797844257
+    locked: 0
+  - name: Enemies
+    uniqueID: 89723773
+    locked: 0
+  - name: FX
+    uniqueID: 1817086079
+    locked: 0
+  - name: Bullets
+    uniqueID: 2362015277
+    locked: 0
+  - name: Foreground
+    uniqueID: 2061769079
+    locked: 0
