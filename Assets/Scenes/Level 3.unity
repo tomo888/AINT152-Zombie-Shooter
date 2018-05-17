@@ -1266,7 +1266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpawn: {fileID: 2035487339}
-  fireTime: 1
+  fireTime: 0.2
 --- !u!1 &488814751
 GameObject:
   m_ObjectHideFlags: 0
@@ -5872,10 +5872,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2007096799}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b2a91b54faeb5944a60e1d8b41df706, type: 3}
+  m_Script: {fileID: 11500000, guid: 91865797443d6dd4683c57497b3ae604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponChoice: 0
 --- !u!1 &2035487338
 GameObject:
   m_ObjectHideFlags: 0
