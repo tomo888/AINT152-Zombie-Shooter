@@ -60,3 +60,9 @@ TagManager:
   - name: Foreground
     uniqueID: 2061769079
     locked: 0
+  - name: BG Image
+    uniqueID: 2170863107
+    locked: 0
+  - name: Menu
+    uniqueID: 1167319751
+    locked: 0

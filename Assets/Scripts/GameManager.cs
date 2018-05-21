@@ -7,7 +7,19 @@ public class GameManager : MonoBehaviour {
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Level Select");
+    }
+    public void Tutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+    public void Tutorial1()
+    {
+        SceneManager.LoadScene("Tutorial 1");
+    }
+    public void Tutorial2()
+    {
+        SceneManager.LoadScene("Tutorial 2");
     }
     public void EndGame()
     {
@@ -18,4 +30,8 @@ public class GameManager : MonoBehaviour {
         SceneManager.LoadScene("Main Menu");
     }
 
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
