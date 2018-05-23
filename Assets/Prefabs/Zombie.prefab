@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08736d903a72d574d9cc20d8d4df215b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 5
   damage: 5
   explosionPrefab: {fileID: 1725681147423022, guid: 1ddb2216393ca9b4abc07a507cdcc1db,
     type: 2}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 787c1f614eb586e4a8f1c9274a1aa138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 1
+  score: 10
 --- !u!114 &114662543257529932
 MonoBehaviour:
   m_ObjectHideFlags: 1

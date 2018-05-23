@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,8 +9,9 @@ public class ZombieBehaviour : MonoBehaviour {
     public int damage = 2;
     public GameObject explosionPrefab;
     public float adjustExplosionAngle = 0.0f;
-
     private Transform player;
+    private Func<GameUI> scoreUpdate;
+
     void Start()
     {
         if (GameObject.FindWithTag("Player"))
@@ -42,6 +44,8 @@ public class ZombieBehaviour : MonoBehaviour {
             GetComponent<AddScore>().DoSendScore();
 
             Destroy(gameObject);
+
+            GameUI.timeLeft += 2.0f;       
         }
     }
     void FixedUpdate()

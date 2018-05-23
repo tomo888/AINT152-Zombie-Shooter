@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerBehaviour : MonoBehaviour {
 
@@ -34,8 +35,9 @@ public class PlayerBehaviour : MonoBehaviour {
             Die();
         }
     }
-    void Die()
+    public void Die()
     {
+        SceneManager.LoadScene("Game Over");
     }
     void SendHealthData()
     {
