@@ -408,8 +408,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000061989, y: -229}
-  m_SizeDelta: {x: 786.1, y: 329}
+  m_AnchoredPosition: {x: -0.012512, y: -229}
+  m_SizeDelta: {x: 1276, y: 329}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1044999308
 MonoBehaviour:
@@ -443,10 +443,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'David has three weapons: a pistol, which doesn''t deal a lot of damage
-    though has unlimited bullets; a machine gun, which can shoot lots of bullets at
-    once; and a rifle, which has high damage per bullet and can even go through multiple
-    foes at once!'
+  m_Text: The machine gun and rifle are special weapons; they allow you to either
+    fire ultra quick or to have an especially powerful shot! These weapons require
+    ammo, though - look out for green and red boxes around the levels that spawn occasionally.
 --- !u!222 &1044999309
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -657,8 +656,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.875, y: 94}
-  m_SizeDelta: {x: 799.65, y: 160}
+  m_AnchoredPosition: {x: 0.000022888, y: 70.5}
+  m_SizeDelta: {x: 1018.1, y: 210.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1390066832
 MonoBehaviour:
@@ -692,8 +691,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You play as David; he is your generic, run-of-the-mill apocalypse survivor,
-    with a cool baseball cap to boot.
+  m_Text: To move, press WASD; to fire your selected gun, press the left mouse button;
+    to reload, press "r" and to select between the pistol, rifle, and machine gun,
+    press 1/2/3 respectively!
 --- !u!222 &1390066833
 CanvasRenderer:
   m_ObjectHideFlags: 0
