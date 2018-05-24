@@ -47,7 +47,7 @@ public class ShootBullet : MonoBehaviour {
 
                 isFiring = true;
 
-                GameObject bullet = PoolManager.current.GetPooledObject("Bullet");
+                GameObject bullet = PoolManager.current.GetPooledObject("Pistol Bullet");
                 if (bullet != null)
                 {
                     bullet.transform.position = bulletSpawn.position;
@@ -77,7 +77,7 @@ public class ShootBullet : MonoBehaviour {
             {
                 isFiring = true;
 
-                GameObject bullet = PoolManager.current.GetPooledObject("Bullet");
+                GameObject bullet = PoolManager.current.GetPooledObject("SMG Bullet");
                 if (bullet != null)
                 {
                     bullet.transform.position = bulletSpawn.position;
@@ -108,7 +108,7 @@ public class ShootBullet : MonoBehaviour {
             {
                 isFiring = true;
 
-                GameObject bullet = PoolManager.current.GetPooledObject("Bullet");
+                GameObject bullet = PoolManager.current.GetPooledObject("Rifle Bullet");
                 if (bullet != null)
                 {
                     bullet.transform.position = bulletSpawn.position;
@@ -188,7 +188,7 @@ public class ShootBullet : MonoBehaviour {
                 isReloading = true;
                 Debug.Log("Reloading...");
                 yield return new WaitForSeconds(reloadTime);
-                maxAmmo1 -= 10;
+                maxAmmo1 -= maxClip1;
                 currentClip1 = maxClip1;
                 isReloading = false;
             }

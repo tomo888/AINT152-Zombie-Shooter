@@ -7,7 +7,7 @@ public class PlayerBehaviour : MonoBehaviour {
 
     public delegate void UpdateHealth(int newHealth);
     public static event UpdateHealth OnUpdateHealth;
-    public int health = 100;
+    public static int health = 100;
     private Animator gunAnim;
     void Start()
     {
@@ -25,6 +25,8 @@ public class PlayerBehaviour : MonoBehaviour {
         {
             GetComponent<Animator>().SetBool("isFiring", false);
         }
+
+        SendHealthData();
     }
     public void TakeDamage(int damage)
     {

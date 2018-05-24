@@ -51,5 +51,6 @@ public class PoolManager : MonoBehaviour
             if (tempList[i] != null)
                 if (tempList[i].activeInHierarchy)
                     tempList[i].SetActive(false);
-    }
+    }
+
 }

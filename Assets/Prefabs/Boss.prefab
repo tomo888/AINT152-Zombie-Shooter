@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114784367552300298}
   - component: {fileID: 114333187909986776}
   - component: {fileID: 114316970628513524}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Boss
   m_TagString: Zombie
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f1f582c50329d46b1a4e53dd52e2c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 25
   damage: 10
   explosionPrefab: {fileID: 1725681147423022, guid: 1ddb2216393ca9b4abc07a507cdcc1db,
     type: 2}
@@ -323,7 +323,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: e9c977d033a46a240ae25885b10e09f2, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

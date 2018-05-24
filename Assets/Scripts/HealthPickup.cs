@@ -3,16 +3,14 @@ using System.Collections;
 
 public class HealthPickup : MonoBehaviour
 {
-    void OnTriggerEnter()
+    void OnTriggerEnter2D(Collider2D other)
     {
-
-        Destroy(healthPack);  // Destroys the health pack
-        Console.Debug("Gained 10 Health");
-        PlayerBehaviour.health += 25; 
+        Destroy(gameObject);  // Destroys the health pack
+        Debug.Log("Gained 25 health");
+        PlayerBehaviour.health += 25;
         if (PlayerBehaviour.health > 100)
         {
             PlayerBehaviour.health = 100;
         }
-
     }
 }

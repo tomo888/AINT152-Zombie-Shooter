@@ -3,12 +3,10 @@ using System.Collections;
 
 public class SMGAmmoPickup : MonoBehaviour
 {
-    void OnTriggerEnter()
+    void OnTriggerEnter2D(Collider2D other)
     {
-
-        Destroy(SMGAmmoPack);  // Destroys the SMG ammo pack
-        Console.Debug("Gained 30 SMG bullets");
+        Destroy(gameObject);  // Destroys the SMG ammo pack
+        Debug.Log("Gained 30 SMG bullets");
         ShootBullet.maxAmmo1 += 30;
-
     }
 }

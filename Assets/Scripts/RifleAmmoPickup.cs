@@ -3,12 +3,10 @@ using System.Collections;
 
 public class RifleAmmoPickup : MonoBehaviour
 {
-    void OnTriggerEnter()
+    void OnTriggerEnter2D(Collider2D other)
     {
-
-        Destroy(rifleAmmoPack);  // Destroys the rifle ammo pack
-        Console.Debug("Gained 5 SMG shells");
+        Destroy(gameObject);  // Destroys the rifle ammo pack
+        Debug.Log("Gained 5 rifle shells");
         ShootBullet.maxAmmo2 += 5;
-
     }
 }
